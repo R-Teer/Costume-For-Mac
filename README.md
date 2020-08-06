@@ -15,7 +15,9 @@ Costume relies on the modification of system resources stored within Mac OS, spe
 
 #### To Do
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
+- [ ] Work with SIP enabled (currently requires SIP disabled)
+- [x] Decompile .car files on Catalina 10.16.6
+- [x] Edit System resources (Port of MILK theme has been completed)
+- [x] Complile installer for replacing correct system resources
+
+
