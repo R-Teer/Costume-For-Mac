@@ -6,3 +6,16 @@
 ### Express Theming For Mac
 Themeing Software for Mac OS Catalina and Big Sur
 
+#### About
+
+Costume is a native themeing engine for Mac OS X Catalina and for the upcoming release Mac OS 11 Big Sur.
+
+Costume relies on the modification of system resources stored within Mac OS, specifically the .car system appearance packages.
+
+
+#### To Do
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
