@@ -3,6 +3,7 @@
 </p>
 
 # Costume
+
 ### Express Theming For Mac
 Themeing Software for Mac OS Catalina and Big Sur
 
@@ -11,6 +12,27 @@ Themeing Software for Mac OS Catalina and Big Sur
 Costume is a native themeing engine for Mac OS X Catalina and for the upcoming release Mac OS 11 Big Sur.
 
 Costume relies on the modification of system resources stored within Mac OS, specifically the .car system appearance packages.
+
+#### SIP 
+
+On Catalina 
+SIP must be disabled using
+
+csrutil disable
+
+SIP has changed dramatically in Big Sur and no longer allows booting from a live disk. Instead we are booted from a snapshot of the disk that prevents the tampering of system files.  
+
+Steps to edit system files on Big Sur 
+
+- Create a mount point for the live snapshot
+- Make adjustments
+- Create new snapshot to boot from
+- Reboot
+
+
+
+
+
 
 
 #### To Do
